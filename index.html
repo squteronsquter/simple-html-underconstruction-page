@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <style>
+        *,
+        *::after,
+        *::before {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 67.5%;
+        }
+
+        body main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+            justify-content: start;
+            align-items: start;
+
+        }
+
+        article {
+            padding-bottom: 5rem;
+        }
+
+        .constrain {
+            max-width: 90%;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+
+        h1 {
+            margin-top: 2rem;
+            padding: 1rem;
+        }
+
+        p {
+            padding: 1rem;
+        }
+
+        hr {
+            height: 10px;
+            width: 100%;
+            background: none;
+            border: none;
+            border-bottom: 1px solid #ccc;
+        }
+
+        footer {
+            margin-top: 4em;
+        }
+
+        @media (min-width:600px) {
+
+            .constrain {
+
+                max-width: 50%;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="constrain">
+        <header>
+            <h1>Website Title or CTA</h1>
+            <nav></nav>
+        </header>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aut!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem quasi incidunt cupiditate!</p>
+            </article>
+        </section>
+        <hr>
+        <footer>
+            <p>&copy; 2022 | All rights reserved by Developer Name</p>
+        </footer>
+    </main>
+</body>
+
+</html>
